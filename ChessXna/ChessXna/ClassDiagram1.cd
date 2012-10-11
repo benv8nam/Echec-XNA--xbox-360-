@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ChessXna.Cavalier">
+    <Position X="12.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Piece\Cavalier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessXna.ChessXna">
+    <Position X="0.5" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAwAAAAAAAAAAAAAAAAgAAAAAAEAAAAQ=</HashCode>
+      <FileName>ChessXna.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="screenManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChessXna.Fou">
+    <Position X="18.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Piece\Fou.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessXna.Piece">
+    <Position X="16.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAIAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAQ=</HashCode>
+      <FileName>Piece\Piece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessXna.Pion">
+    <Position X="9.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Piece\Pion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessXna.Reine">
+    <Position X="21.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAQIAAAAA=</HashCode>
+      <FileName>Piece\Reine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessXna.Roi">
+    <Position X="15.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Piece\Roi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessXna.Sprite">
+    <Position X="16.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAoAgAAAAIAAAAAAAQ=</HashCode>
+      <FileName>Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessXna.Tour">
+    <Position X="24.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAQIAAAAA=</HashCode>
+      <FileName>Piece\Tour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessXna.Plateau">
+    <Position X="11.75" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAQIAACCACyDgIACAgkCAAAhAYCAAACUAAAAAIIQ=</HashCode>
+      <FileName>Plateau.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playerTour" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="plateauValeur" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ChessXna.Case">
+    <Position X="14.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Case.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="unePiece" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChessXna.GameScreen">
+    <Position X="8.5" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAEACAAARAAgAEEAIAAAAADAAAAA4AAgAGAkYIBAY=</HashCode>
+      <FileName>ScreenManager\GameScreen.cs</FileName>
+      <NewMemberFileName>Screen\GameScreen.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessXna.ScreenManager">
+    <Position X="4.5" Y="10.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAVEAgAAAgAwAAAAAAAAAACAAAiBgERAAAgAACCEQ=</HashCode>
+      <FileName>ScreenManager\ScreenManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="screens" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ChessXna.GameplayScreen">
+    <Position X="8.5" Y="17.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEACAAAAAAgAAAAABAAAAAAAAIAAAAAACAAAAAAQ=</HashCode>
+      <FileName>Screen\GameplayScreen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="plateau" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="ChessXna.PlayerColor">
+    <Position X="15.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerColor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
